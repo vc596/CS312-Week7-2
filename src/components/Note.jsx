@@ -1,6 +1,6 @@
 import React from "react";
 import DeleteIcon from "@material-ui/icons/Delete";
-import Clear
+import ClearIcon from "@material-ui/icons/Delete";
 
 
 function Note(props) {
@@ -13,7 +13,7 @@ function Note(props) {
       <h1>{props.title}</h1>
       <p>{props.content}</p>
       <button onClick={handleClick}>
-        <DeleteIcon />
+        <ClearIcon />
 
         
       </button>
